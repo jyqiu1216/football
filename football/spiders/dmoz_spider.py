@@ -1,6 +1,7 @@
 import scrapy
 
-from football.items import DmozItem
+from football.items.items import DmozItem
+
 
 class DmozSpider(scrapy.Spider):
     name = "dmoz"
